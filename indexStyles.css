@@ -1,0 +1,28 @@
+.NavBar{
+    height: 100px;
+    display: flex;
+    align-items: center; 
+    background: #F9F4F5;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.25);
+}
+#logo{
+    margin-left: 7.5%;
+}
+.NavBar a img{
+    height: 150px;
+}
+
+#search{
+    height: 40px;
+    margin-left: 55%;
+}
+.NavLinks{
+    margin-left: 3%;
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+.NavLinks:hover{
+    text-decoration: underline;
+    color: #96BF3F;
+}
