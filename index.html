@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="indexStyles.css">
-    </head>
-    <body>
-        <div class="NavBar">
-            <a href="index.html" id="logo">
-                <img src="logo.png" alt="RMCI Logo" >
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="indexStyles.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="NavBar">
+        <a href="index.html" id="logo">
+          <img src="./images/logo.png" alt="RMCI Logo" />
+        </a>
+        <a href="findDoctor.html" class="NavLinks">Find a Doctor</a>
+        <a href="services.html" class="NavLinks">Services and Specialties</a>
+        <a href="about.html" class="NavLinks">About Us</a>
+        <a href="contact.html" class="NavLinks">Contact Us</a>
+        <div class="boxparent">
+          <div class="box">
+            <input type="text" placeholder="Search..." />
+            <a href="#">
+              <img src="search.png" alt="Clickable search icon" id="search" />
+              <i class="fas fa-search"></i>
             </a>
-            <a href="findDoctor.html" class="NavLinks">Find a Doctor</a>
-            <a href="services.html" class="NavLinks">Services and Specialties</a>
-            <a href="about.html" class="NavLinks">About</a>
-            <div class="boxparent">
-                <div class="box">
-                    <input type="text" placeholder="Search...">
-                    <a href="#">
-                        <img src="search.png" alt="Clickable search icon" id="search">
-                        <i class="fas fa-search"></i>
-                    </a>
-                </div>
-            </div>
-            
-        </div>  
-    </body>
+          </div>
+        </div>
+      </div>
+      <div id="firstFrame">
+        <img src="./images/firstframe.png">
+        <div id="sideText">
+            <h1 id="Motto">Serving God.<br>Serving People.</h1>
+            <p id="Rooted">Rooted in Faith, Committed to Care:<br>Your <strong>trusted partner</strong> for Medical Laboratory Testing</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
