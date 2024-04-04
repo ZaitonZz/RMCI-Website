@@ -114,6 +114,7 @@
   body{
     width: 100%;
     margin: 0px;
+    background-color: #FAF9F6;
   }
 
 .NavBar{
@@ -186,3 +187,59 @@
 }
 
 /***************************************************************************************************************************************************************/
+#firstFrame{
+    display: flex;
+    margin-left: 5%;
+}
+
+#firstFrameimg{
+    height: 780px;
+}
+
+#motto{
+    font-size: 90px;
+    text-align: right;
+    font-family: 'Satoshi-Black', sans-serif;
+    color: #385C6C;
+    line-height: 1.2;
+}
+
+#sideTextcontainer {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 780px; /* Adjust the height as needed */
+  }
+
+#rooted{
+    font-size: 24px;
+    font-family: 'Satoshi-Regular', sans-serif;
+    text-align: right;
+}
+
+#rooted span{
+    font-family: 'Satoshi-Bold', sans-serif;
+}
+
+#findADoctor{
+    border: none;
+    width: 352px;
+    height: 60px;
+    background: #D72020; 
+    border-radius: 12px;
+    font-family: 'Satoshi-Bold', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#makeAnAppointment{
+    margin-left: 10px;
+    border: none;
+    width: 352px; 
+    height: 60px;
+    background: #36382E;
+    border-radius: 12px;
+    font-family: 'Satoshi-Bold', sans-serif;
+    font-size: 20px;
+    color: white;
+}
