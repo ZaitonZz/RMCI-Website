@@ -1,37 +1,33 @@
-
-.box{
-   height: 30px;
-   display: flex;
-   cursor: pointer;
-   padding: 10px 20px;
-   background: #F9F4F5;
-   border-radius: 30px;
-   align-items: center;
-   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); 
+.separator{
+    border: 15px #385C6C solid;
 }
 
-.box:hover input{
-    width: 400px
-}
-
-.box input{
-    width: 0;
-    outline: none;
-    border: none;
-    font-weight: 500;
-    transition: 0.8s;
-    background: transparent;   
-}
-
-.box a .fas{
-    color: #1daf;
-    font-size: 18px;
-}
-
-body{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #1daf;
-}
+.Footer {
+    height: 186px;
+  }
+  
+  .InfoText {
+   height: 186px;
+    background: #D1DDE3;
+    color: #36382E;
+    font-size: 16px;
+    font-family: 'Satoshi-Regular', sans-serif;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
+  
+  .bold {
+     font-family: 'Satoshi-Bold', sans-serif;
+  }
+  
+  .InfoText span:not(.bold) {
+     font-family: 'Satoshi-Regular', sans-serif;
+  }
+  
+  .RightsAndPolicies {
+    color: black;
+    font-size: 14px;
+    font-family: 'Satoshi-Light', sans-serif;
+    line-height: 18px;
+    word-wrap: break-word;
+  }
