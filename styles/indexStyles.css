@@ -1,0 +1,379 @@
+@font-face {
+  font-family: "Satoshi-Light";
+  src: url("../fonts/Satoshi-Light.woff2") format("woff2"),
+    url("../fonts/Satoshi-Light.woff") format("woff"),
+    url("../fonts/Satoshi-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-LightItalic";
+  src: url("../fonts/Satoshi-LightItalic.woff2") format("woff2"),
+    url("../fonts/Satoshi-LightItalic.woff") format("woff"),
+    url("../fonts/Satoshi-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url("../fonts/Satoshi-Regular.woff2") format("woff2"),
+    url("../fonts/Satoshi-Regular.woff") format("woff"),
+    url("../fonts/Satoshi-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-Italic";
+  src: url("../fonts/Satoshi-Italic.woff2") format("woff2"),
+    url("../fonts/Satoshi-Italic.woff") format("woff"),
+    url("../fonts/Satoshi-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("../fonts/Satoshi-Medium.woff2") format("woff2"),
+    url("../fonts/Satoshi-Medium.woff") format("woff"),
+    url("../fonts/Satoshi-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-MediumItalic";
+  src: url("../fonts/Satoshi-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Satoshi-MediumItalic.woff") format("woff"),
+    url("../fonts/Satoshi-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("../fonts/Satoshi-Bold.woff2") format("woff2"),
+    url("../fonts/Satoshi-Bold.woff") format("woff"),
+    url("../fonts/Satoshi-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-BoldItalic";
+  src: url("../fonts/Satoshi-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Satoshi-BoldItalic.woff") format("woff"),
+    url("../fonts/Satoshi-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi-Black";
+  src: url("../fonts/Satoshi-Black.woff2") format("woff2"),
+    url("../fonts/Satoshi-Black.woff") format("woff"),
+    url("../fonts/Satoshi-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-BlackItalic";
+  src: url("../fonts/Satoshi-BlackItalic.woff2") format("woff2"),
+    url("../fonts/Satoshi-BlackItalic.woff") format("woff"),
+    url("../fonts/Satoshi-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="button"] {
+  cursor: pointer;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  background-color: #faf9f6;
+}
+
+.NavBar {
+  background-color: #385c6c;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
+}
+#logo {
+  margin-left: 5%;
+}
+
+.NavBar a img {
+  height: 71px;
+  width: 100%;
+}
+
+#search {
+  height: 45px;
+}
+
+.NavLinks {
+  margin-left: 6%;
+  text-decoration: none;
+  color: #faf9f6;
+  font-family: "Satoshi-Regular", sans-serif;
+  font-size: 24px;
+}
+
+.NavLinks:hover {
+  border-bottom: 2px solid #d72020;
+  box-shadow: 0 2px 0 0 #36382e;
+}
+
+.box {
+  height: 75px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  align-items: center;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  background: #d72020;
+}
+
+.boxparent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.box:hover input {
+  width: 100%;
+}
+
+.box input {
+  width: 0;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transition: 0.8s;
+  background: transparent;
+  color: #faf9f6;
+}
+
+.box input::placeholder {
+  color: #faf9f6;
+}
+
+.box a .fas {
+  color: #1daf;
+  font-size: 18px;
+}
+
+/********************************************************** First Frame *****************************************************************************************************/
+#firstFrame {
+  display: flex;
+}
+
+#firstFrameimg {
+  height: 780px;
+}
+
+#motto {
+  font-size: 100px;
+  text-align: right;
+  font-family: "Satoshi-Black", sans-serif;
+  color: #385c6c;
+  line-height: 1.15;
+}
+
+#sideTextcontainer {
+  
+  margin-left: 3%;
+  margin-top: 4%;
+}
+
+#rooted {
+  font-size: 26px;
+  font-family: "Satoshi-Regular", sans-serif;
+  text-align: right;
+}
+
+#rooted span {
+  font-family: "Satoshi-Bold", sans-serif;
+}
+
+#firstFrameButtons {
+  margin-top: 7.5%;
+}
+
+#findADoctor {
+  border: none;
+  width: 365px;
+  height: 60px;
+  background: #d72020;
+  border-radius: 12px;
+  font-family: "Satoshi-Medium", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+#makeAnAppointment {
+  margin-left: 10px;
+  border: none;
+  width: 365px;
+  height: 60px;
+  background: #385c6c;
+  border-radius: 12px;
+  font-family: "Satoshi-Medium", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+/********************************************************** Second Frame *****************************************************************************************************/
+
+#secondFrame {
+  display: flex;
+  margin-left: 11.5%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+#secondFrameText {
+  width: 32%;
+  margin-top: 0.5%;
+}
+
+#medicalServices {
+  color: #385c6c;
+  font-size: 60px;
+  font-family: "Satoshi-Black", sans-serif;
+  line-height: 69px;
+  word-wrap: break-word;
+}
+
+#medicalServices span {
+  border-bottom: 5px solid #d72020;
+}
+
+#aboutMedicalServices{
+  color: #36382E; 
+  font-size: 20px;
+  font-family: "Satoshi-Regular", sans-serif;
+  word-wrap: break-word
+}
+
+.learnMore {
+  height: 60px;
+  width: 542px;
+  position: absolute;
+  background: #d72020;
+  border-radius: 12px;
+  text-align: center;
+  color: #f9f4f5;
+  font-family: "Satoshi-Medium", sans-serif;
+  font-size: 20px;
+  word-wrap: break-word;
+  border: none;
+}
+
+.carousel {
+  width: 50%;
+  position: relative;
+  margin-left: 9%;
+  aspect-ratio: 16/9;
+  
+}
+
+.carousel__item {
+  flex: 1 0 100%;
+  display: none;
+}
+
+.carousel__item--selected{
+  display: block;
+}
+
+.carousel__item img{
+  height: 476px;
+  width: 820px;
+  object-fit: cover;
+}
+
+.carousel__nav {
+  width: 100%;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+.carousel__button {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: radial-gradient(closest-side, #ffffff 0%, #D9D9D9 100%);
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 2px;
+
+}
+
+.carousel__button--selected {
+  background-image: linear-gradient(#d72020, #d72020);
+}
+
+
+/********************************************************** Footer *****************************************************************************************************/
+.separator {
+  border: 10px #385c6c solid;
+}
+
+.Footer {
+  height: 186px;
+}
+
+.InfoText {
+  height: 186px;
+  background: #d1dde3;
+  color: #36382e;
+  font-size: 16px;
+  font-family: "Satoshi-Regular", sans-serif;
+  line-height: 21px;
+  word-wrap: break-word;
+  padding-left: 3%;
+  padding-top: 1%;
+}
+
+.bold {
+  font-family: "Satoshi-Bold", sans-serif;
+}
+
+.InfoText span:not(.bold) {
+  font-family: "Satoshi-Regular", sans-serif;
+}
+
+.RightsAndPolicies {
+  color: black;
+  font-size: 14px;
+  font-family: "Satoshi-Light", sans-serif;
+  line-height: 18px;
+  word-wrap: break-word;
+}

@@ -1,33 +1,11 @@
-.separator{
-    border: 15px #385C6C solid;
+#findADoctor{
+  border: none;
+  width: 352px;
+  height: 60px;
+  background: #D72020; 
+  border-radius: 12px;
+  font-family: 'Satoshi-Medium', sans-serif;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
 }
-
-.Footer {
-    height: 186px;
-  }
-  
-  .InfoText {
-   height: 186px;
-    background: #D1DDE3;
-    color: #36382E;
-    font-size: 16px;
-    font-family: 'Satoshi-Regular', sans-serif;
-    line-height: 21px;
-    word-wrap: break-word;
-  }
-  
-  .bold {
-     font-family: 'Satoshi-Bold', sans-serif;
-  }
-  
-  .InfoText span:not(.bold) {
-     font-family: 'Satoshi-Regular', sans-serif;
-  }
-  
-  .RightsAndPolicies {
-    color: black;
-    font-size: 14px;
-    font-family: 'Satoshi-Light', sans-serif;
-    line-height: 18px;
-    word-wrap: break-word;
-  }
