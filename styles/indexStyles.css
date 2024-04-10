@@ -340,6 +340,46 @@ body {
   background-image: linear-gradient(#d72020, #d72020);
 }
 
+/********************************************************** Third Frame *****************************************************************************************************/
+
+#thirdFrame{
+  height: 873px;
+  background-color: #D1DDE3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#thirdFrameImg{
+  width: 30%;
+}
+
+#thirdFrameText{
+  margin-left: 8%;
+  width: 40%;
+}
+
+#thirdFrameQuote{
+  font-size: 60px;
+  font-family: "Satoshi-Italic", sans-serif;
+}
+
+.redLine{
+  width: 307px; 
+  height: 0px; 
+  border: 2px #D72020 solid
+}
+
+#thirdFrameQuoted span{
+  font-family: "Satoshi-Bold", sans-serif;
+}
+
+#thirdFrameQuoted {
+  font-size: 20px;
+  line-height: 25px; 
+  word-wrap: break-word;
+  font-family: "Satoshi-Regular", sans-serif;
+}
 
 /********************************************************** Footer *****************************************************************************************************/
 .separator {
