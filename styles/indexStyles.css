@@ -423,7 +423,7 @@ body {
   margin-left: 15%
 }
 
-.lorem-text {
+.about-text {
   margin-top: 5%;
   width: 869px;
   text-align: center;
@@ -444,6 +444,91 @@ body {
 }
 
 /********************************************************** Fifth Frame *****************************************************************************************************/
+
+.fifthFrame {
+  height: 1189px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.contact-title, .description {
+  text-align: center;
+}
+
+
+.contact-info {
+  width: 302px;
+  margin-left: 20%;
+  margin-top: 2.5%;
+}
+
+.description {
+  width: 787px;
+  height: 51px;
+  font-family: "Satoshi-Regular", sans-serif;
+  font-size: 20px;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+
+.base-map {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  border: 2px solid #385C6C;
+  margin-top: 7%;
+}
+
+.header-text{
+  margin-left: 20%;
+}
+
+.text-accent2 {
+  color: #385C6C;
+  font-size: 60px;
+  font-family: "Satoshi-Black", sans-serif;
+  font-weight: 900;
+  line-height: 23px;
+}
+
+.text-dark {
+  color: #36382E;
+  font-size: 60px; /* Adjusted for consistency */
+  font-family: "Satoshi-Black", sans-serif;
+  line-height: 69px;
+}
+
+.text-light {
+  color: #36382E;
+  font-size: 20px;
+  font-family: "Satoshi-Regular", sans-serif;
+  
+}
+
+.text-accent {
+  color: #385C6C;
+  font-size: 20px;
+  font-family: "Satoshi-Bold", sans-serif;
+  text-decoration: underline;
+  line-height: 23px;
+}
+
+.text-dark2 {
+  color: #36382E;
+  font-size: 20px; /* Adjusted for consistency */
+  font-family: "Satoshi-Bold", sans-serif;
+  line-height: 69px;
+}
+
+#lastbutton{
+  margin-left: 8%;
+  margin-top: 3%;
+}
+
 
 /********************************************************** Footer *****************************************************************************************************/
 .separator {
