@@ -352,6 +352,7 @@ body {
 
 #thirdFrameImg{
   width: 30%;
+  object-fit: scale-down;
 }
 
 #thirdFrameText{
@@ -380,6 +381,69 @@ body {
   word-wrap: break-word;
   font-family: "Satoshi-Regular", sans-serif;
 }
+
+/********************************************************** Fourth Frame *****************************************************************************************************/
+
+.fourthFrame {
+  height: 1214px;
+  background: #F0F0F0;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 3.5%;
+  padding-bottom: 5%;
+}
+
+.center-text {
+  text-align: center;
+  margin-top: 7.5%;
+}
+
+.center-text .text-normal {
+  color: #36382E;
+  font-size: 60px;
+  font-family: "Satoshi-Black", sans-serif; 
+  font-weight: 900;
+  line-height: 69px;
+}
+
+.center-text .text-highlight {
+  color: #D72020;
+  font-size: 60px;
+  font-family: "Satoshi-Black", sans-serif; 
+  font-weight: 900;
+  line-height: 69px;
+}
+
+.rmci-img {
+  width: 591px;
+  height: 433px;
+  border-radius: 12px;
+  margin-left: 15%
+}
+
+.lorem-text {
+  margin-top: 5%;
+  width: 869px;
+  text-align: center;
+  color: #36382E;
+  font-size: 20px;
+  font-family: "Satoshi-Regular", sans-serif;
+  font-weight: 400;
+}
+
+#blue {
+  background: #385c6c;
+  margin-left: 8%;
+  margin-top: 4%;
+}
+
+#centered{
+  margin-left: 42%;
+}
+
+/********************************************************** Fifth Frame *****************************************************************************************************/
 
 /********************************************************** Footer *****************************************************************************************************/
 .separator {
