@@ -1,0 +1,357 @@
+@font-face {
+  font-family: "Satoshi-Light";
+  src: url("../fonts/Satoshi-Light.woff2") format("woff2"),
+    url("../fonts/Satoshi-Light.woff") format("woff"),
+    url("../fonts/Satoshi-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-LightItalic";
+  src: url("../fonts/Satoshi-LightItalic.woff2") format("woff2"),
+    url("../fonts/Satoshi-LightItalic.woff") format("woff"),
+    url("../fonts/Satoshi-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url("../fonts/Satoshi-Regular.woff2") format("woff2"),
+    url("../fonts/Satoshi-Regular.woff") format("woff"),
+    url("../fonts/Satoshi-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-Italic";
+  src: url("../fonts/Satoshi-Italic.woff2") format("woff2"),
+    url("../fonts/Satoshi-Italic.woff") format("woff"),
+    url("../fonts/Satoshi-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("../fonts/Satoshi-Medium.woff2") format("woff2"),
+    url("../fonts/Satoshi-Medium.woff") format("woff"),
+    url("../fonts/Satoshi-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-MediumItalic";
+  src: url("../fonts/Satoshi-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Satoshi-MediumItalic.woff") format("woff"),
+    url("../fonts/Satoshi-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("../fonts/Satoshi-Bold.woff2") format("woff2"),
+    url("../fonts/Satoshi-Bold.woff") format("woff"),
+    url("../fonts/Satoshi-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-BoldItalic";
+  src: url("../fonts/Satoshi-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Satoshi-BoldItalic.woff") format("woff"),
+    url("../fonts/Satoshi-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi-Black";
+  src: url("../fonts/Satoshi-Black.woff2") format("woff2"),
+    url("../fonts/Satoshi-Black.woff") format("woff"),
+    url("../fonts/Satoshi-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-BlackItalic";
+  src: url("../fonts/Satoshi-BlackItalic.woff2") format("woff2"),
+    url("../fonts/Satoshi-BlackItalic.woff") format("woff"),
+    url("../fonts/Satoshi-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="button"] {
+  cursor: pointer;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  background-color: #faf9f6;
+}
+
+.NavBar {
+  background-color: #385c6c;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
+}
+#logo {
+  margin-left: 5%;
+}
+
+.NavBar a img {
+  height: 71px;
+  width: 100%;
+}
+
+#search {
+  height: 45px;
+}
+
+.NavLinks {
+  margin-left: 6%;
+  text-decoration: none;
+  color: #faf9f6;
+  font-family: "Satoshi-Regular", sans-serif;
+  font-size: 24px;
+}
+
+.NavLinks:hover {
+  border-bottom: 2px solid #d72020;
+  box-shadow: 0 2px 0 0 #36382e;
+}
+
+.box {
+  height: 75px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  align-items: center;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  background: #d72020;
+}
+
+.boxparent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.box:hover input {
+  width: 100%;
+}
+
+.box input {
+  width: 0;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transition: 0.8s;
+  background: transparent;
+  color: #faf9f6;
+}
+
+.box input::placeholder {
+  color: #faf9f6;
+}
+
+.box a .fas {
+  color: #1daf;
+  font-size: 18px;
+}
+
+/********************************************************** First Frame *****************************************************************************************************/
+
+#firstFrame {
+  height: 550px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-text {
+  text-align: center;
+  line-height: 1.1;
+}
+
+.center-text .text-normal {
+  color: #36382e;
+  font-size: 48px;
+  font-family: "Satoshi-Black", sans-serif;
+  font-weight: 900;
+}
+
+.center-text .text-highlight {
+  color: #d72020;
+  font-size: 48px;
+  font-family: "Satoshi-Black", sans-serif;
+  font-weight: 900;
+}
+
+.about-text {
+  margin-top: 5%;
+  width: 869px;
+  text-align: center;
+  color: #36382e;
+  font-size: 20px;
+  font-family: "Satoshi-Regular", sans-serif;
+  font-weight: 400;
+}
+
+/********************************************************** Second Frame *****************************************************************************************************/
+
+#secondFrame {
+  height: 594px;
+}
+
+#secondFrameImg {
+  width: 100%;
+}
+
+/********************************************************** Third Frame *****************************************************************************************************/
+
+#thirdFrame {
+  height: 600px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+#thirdFrame .center-text .text-normal {
+  font-size: 40px;
+}
+
+.center-text .text-highlight-blue {
+  color: #385c6c;
+  font-size: 40px;
+  font-family: "Satoshi-Black", sans-serif;
+}
+
+#secondText {
+  margin-top: 7%;
+}
+
+.mission-vision {
+  margin-top: 3%;
+  width: 869px;
+  text-align: center;
+  color: #36382e;
+  font-size: 20px;
+  font-family: "Satoshi-Regular", sans-serif;
+}
+
+/********************************************************** Fourth Frame *****************************************************************************************************/
+
+#fourthFrame {
+  height: 800px;
+  background-color: #d1dde3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#fourthFrame .center-text .text-normal{
+    font-size: 40px;
+}
+
+#coreValues {
+    margin-top: 12%;
+    width: 83%;
+    height: 535px;
+    margin-left: 10%;
+}
+
+.value-item {
+    margin-bottom: 6%;
+}
+
+.value-header {
+    color: #D72020;
+    font-size: 28px;
+    font-family: 'Satoshi-Black', sans-serif;
+}
+
+.value-description {
+    color: #36382E;
+    font-size: 20px;
+    font-family: 'Satoshi-Regular', sans-serif;
+}
+
+.value-normal{
+    color: #385c6c;
+    font-size: 28px;
+    font-family: 'Satoshi-Black', sans-serif;
+}
+
+/********************************************************** Fifth Frame *****************************************************************************************************/
+
+#fifthFrame{
+    height: 759px;
+    background: url(../images/doctor_close_up.png);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+#corePurposeContainer {
+    width: 663px;
+    height: 299px;
+    margin-left: 11%;
+}
+
+.title {
+    font-size: 40px;
+    font-family: 'Satoshi-Black', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.title .highlight {
+    color: #D72020;
+}
+
+.title .normal {
+    color: #F0F0F0;
+}
+
+.missionStatement {
+    width: 663px;
+    margin-top: 10%;
+    text-align: center;
+    color: #FAF9F6;
+    font-size: 48px;
+    font-family: 'Satoshi-Italic', sans-serif;
+}
+
+
+/********************************************************** Footer *****************************************************************************************************/
