@@ -1,17 +1,121 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../styles/contactStyles.css">
-    </head>
-    <body>
-        
-        
-
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../styles/contactStyles.css" />
+  </head>
+  <body>
+    <div class="NavBar">
+      <a href="index.html" id="logo">
+        <img src="../images/logo.png" alt="RMCI Logo" />
+      </a>
+      <a href="findDoctor.html" class="NavLinks">Find a Doctor</a>
+      <a href="services.html" class="NavLinks">Services and Specialties</a>
+      <a href="about.html" class="NavLinks">About Us</a>
+      <a href="contact.html" class="NavLinks selected">Contact Us</a>
+      <div class="boxparent">
+        <div class="box">
+          <input type="text" placeholder="Search..." />
+          <a href="#">
+            <img
+              src="../images/search.png"
+              alt="Clickable search icon"
+              id="search"
+            />
+            <i class="fas fa-search"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="firstFrame">
+      <div id="fifthFrameContent">
+        <div class="contact-title">
+          <div>
+            <span class="text-dark">Contact </span>
+            <span class="text-accent2">Us</span>
+          </div>
+        </div>
+        <img
+          id="map"
+          src="../images/map2.png"
+          alt="google map location of RMCI"
+        />
+        <div class="header-text">
+          <div>
+            <span class="text-dark2">Address: </span>
+            <span class="text-light"
+              >Rivera Medical Center. Inc., Santo Tomas,
+              <div class="custom-br"></div>
+              Davao del Norte</span
+            >
+          </div>
+        </div>
+        <div class="contact-info">
+          <div>
+            <div class="spacing">
+              <span class="text-light">Telephone:<br /></span>
+              <span class="text-accent">(012) 345-6789<br /></span>
+            </div>
+            <div class="spacing">
+              <span class="text-light">Mobile:<br /></span>
+              <span class="text-accent">+63923456789<br /></span>
+            </div>
+            <div class="spacing">
+              <span class="text-light color-blue"
+                >Connect with us on Facebook<br
+              /></span>
+              <a href=""
+                ><span class="text-accent"
+                  >Rivera Heart & Metabolism Center</span
+                ></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="secondFrame">
+      <div id="secondFrameFields">
+        <h1>Send Us A<span> Message</span></h1>
+        <input
+          type="text"
+          class="field"
+          name="firstName"
+          placeholder="First Name"
+        />
+        <input
+          type="text"
+          class="field"
+          name="firstName"
+          placeholder="Last Name"
+        />
+        <input
+          type="text"
+          class="field"
+          name="firstName"
+          placeholder="Phone Number"
+        />
+        <input type="text" class="field" name="firstName" placeholder="Email" />
+      </div>
+      <div id="submit">
+        <div id="help">How can we help?</div>
+        <div id="condition">Please describe the condition thoroughly.</div>
+        <textarea id="secondFrameTextArea"></textarea>
+        <div class="terms-checkbox">
+          <input type="checkbox" id="terms" name="terms" />
+          <label id="secondFrameTerms" for="terms">
+            I am over 18 years old, and I agree to the
+            <a href="/terms-of-use" class="terms-link">Terms of Use</a> and
+            <a href="/privacy-policy" class="terms-link">Privacy Policy</a>.
+          </label>
+        </div>
+        <input id="submitButton" type="submit" value="SUBMIT" />
+      </div>
+    </div>
+  </body>
 </html>
