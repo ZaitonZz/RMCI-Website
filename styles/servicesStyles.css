@@ -191,4 +191,207 @@
     font-size: 18px;
   }
   
-  /********************************************************** First Frame *****************************************************************************************************/
+/********************************************************** First Frame *****************************************************************************************************/
+
+  #firstFrame {
+    height: 380px;
+    background-image: url(../images/services.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    color: #F9F4F5; 
+    font-size: 48px; 
+    font-family: "Satoshi-Black", sans-serif;
+    word-wrap: break-word
+  }
+
+/********************************************************** Second Frame *****************************************************************************************************/
+
+  #secondFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  #secondFrameImages{
+    width: 40%;
+  }
+
+  .service-image{
+    margin-top: 3%;
+  }
+
+  #secondFrameText{
+    margin-left: 2%;
+    width: 40%;
+  }
+
+  #cardiology { 
+    height: 512px; ;
+    background: #D1DDE3; 
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+  }
+
+  .title-text {
+    font-size: 28px;
+    font-family: "Satoshi-Black", sans-serif;
+    color: #36382e;
+    margin-left: 5%;
+  }
+
+  .title-highlighted {
+    color: #D72020;
+  }
+
+  .text-black {
+    font-size: 20px;
+    font-family: "Satoshi-Medium", sans-serif;
+    color: #36382e;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+
+  .text-red {
+    color: #D72020;
+    margin-left: 17%;
+    margin-top: 0%;
+  }
+
+  #vascular {
+    height: 465px; 
+    background: #D1DDE3; 
+    border-radius: 12px;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+  }
+
+  #diabetes {
+    height: 300px; 
+    background: #D1DDE3; 
+    border-radius: 12px;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+  }
+
+  #other {
+    height: 281px; 
+    background: #D1DDE3; 
+    border-radius: 12px;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+  }
+
+  #packages {
+    height: 220px; 
+    background: #D1DDE3; 
+    border-radius: 12px;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+  }
+
+/********************************************************** Third Frame *****************************************************************************************************/
+
+  .redLine {
+    width: 100px; 
+    height: 0px; 
+    border: 2px #D72020 solid
+  }
+
+  .thirdFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+  }
+  
+  .centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .base-map {
+    margin-top: 7%;
+  }
+  
+  .header-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  
+  .text-accent2 {
+    color: #385c6c;
+    font-size: 60px;
+    font-family: "Satoshi-Black", sans-serif;
+    font-weight: 900;
+    line-height: 23px;
+  }
+  
+  .text-dark {
+    color: #36382e;
+    font-size: 60px; /* Adjusted for consistency */
+    font-family: "Satoshi-Black", sans-serif;
+    line-height: 69px;
+  }
+  
+  .contact-info {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    margin-left: 12%;
+  }
+  
+  .text-light {
+    color: #36382e;
+    font-size: 20px;
+    font-family: "Satoshi-Regular", sans-serif;
+  }
+  
+  .text-accent {
+    color: #385c6c;
+    font-size: 20px;
+    font-family: "Satoshi-Black", sans-serif;
+    text-decoration: underline;
+    line-height: 23px;
+  }
+  
+  .text-dark2 {
+    color: #36382e;
+    font-size: 20px; /* Adjusted for consistency */
+    font-family: "Satoshi-Black", sans-serif;
+    line-height: 69px;
+  }
+  
+  .spacing {
+    margin-top: 7%;
+  }
+  
+  .color-blue {
+    font-family: "Satoshi-Black", sans-serif;
+    color: #385c6c;
+    font-size: 16px;
+  }
+  
+  .learnMore {
+    height: 60px;
+    width: 542px;
+    margin-top: 10%;
+    background: #d72020;
+    border-radius: 12px;
+    text-align: center;
+    color: #f9f4f5;
+    font-family: "Satoshi-Medium", sans-serif;
+    font-size: 20px;
+    word-wrap: break-word;
+    border: none;
+  }
