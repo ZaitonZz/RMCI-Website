@@ -195,7 +195,7 @@
 
   #firstFrame {
     height: 380px;
-    background-image: url(../images/services.png);
+    background-image: url(../images/doctor_header.png);
     display: flex;
     justify-content: center;
     align-items: center;
