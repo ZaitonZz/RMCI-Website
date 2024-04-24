@@ -376,3 +376,103 @@ body {
   color: #ecedf0;
   font-family: "Satoshi-Bold", sans-serif;
 }
+
+/********************************************************** Footer *****************************************************************************************************/
+
+.Footer {
+  width: 100%;
+  height: 243px;
+  background: #D1DDE3;
+  border-radius: 12px;
+  margin-top: 12%;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+
+#footerStart{
+  width: 35%;
+}
+
+.address-contact, .phone-number{
+  width: 43%;
+  color: #36382E;
+  font-size: 16px;
+  font-family: 'Satoshi-Regular', sans-serif;
+}
+
+.phone-number{
+  margin-left: 5%;
+}
+
+.footer{
+  display: flex;
+}
+
+.footer-details{
+  display: flex;
+}
+
+.section-information{
+  margin-left: 7%;
+  font-family: 'Satoshi-Bold', sans-serif;
+  font-size: 16px;
+}
+
+.footerLinks {
+  color: #36382E;
+  font-size: 16px;
+  font-family: 'Satoshi-Regular', sans-serif;
+}
+
+.footerLinks a{
+  text-decoration: none;
+  color: #36382E;
+}
+
+.bottom-strip {
+  width: 100%;
+  height: 39px;
+  background: #36382E;
+  display: flex;
+  padding-left: 10%;
+  align-items: center;
+}
+
+.copyright-text {
+  color: white;
+  font-size: 14px;
+  font-family: 'Satoshi-Light';
+  opacity: 80%;
+}
+
+.terms-privacy {
+  color: white;
+  font-size: 14px;
+  font-family: 'Satoshi-Regular';
+  margin-left: 3%;
+}
+
+.logo-image {
+  width: 46px;
+  height: 55px;
+}
+
+.separator {
+  border: 10px #385c6c solid;
+}
+
+#facebook {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+#location {
+  width: 15px;
+  height: 15px;
+}
+
+#phone {
+  width: 15px;
+  height: 15px;
+}
