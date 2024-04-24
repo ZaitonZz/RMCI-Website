@@ -124,12 +124,13 @@ body {
 }
 
 .NavBar a img {
-  height: 71px;
+  height: 60px;
   width: 100%;
 }
 
 #search {
-  height: 45px;
+  height: auto;
+  padding: 15%
 }
 
 .NavLinks {
@@ -137,26 +138,23 @@ body {
   text-decoration: none;
   color: #faf9f6;
   font-family: "Satoshi-Regular", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .NavLinks:hover {
   border-bottom: 2px solid #d72020;
-  box-shadow: 0 2px 0 0 #36382e;
 }
 
 .selected {
   border-bottom: 2px solid #d72020;
-  box-shadow: 0 2px 0 0 #36382e;
 }
 
 .box {
-  height: 75px;
+  height: auto;
   display: flex;
   cursor: pointer;
   padding: 10px 20px;
   align-items: center;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
   background: #d72020;
 }
 
@@ -168,7 +166,7 @@ body {
 }
 
 .box:hover input {
-  width: 100%;
+  width: 80%;
 }
 
 .box input {
@@ -176,7 +174,7 @@ body {
   outline: none;
   border: none;
   font-weight: 500;
-  transition: 0.8s;
+  transition: 0.5s;
   background: transparent;
   color: #faf9f6;
 }
