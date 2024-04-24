@@ -114,7 +114,7 @@ body {
 
 .NavBar {
   background-color: #385c6c;
-  height: 95px;
+  height: 1%;
   display: flex;
   align-items: center;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
@@ -145,6 +145,11 @@ body {
   box-shadow: 0 2px 0 0 #36382e;
 }
 
+.selected {
+  border-bottom: 2px solid #d72020;
+  box-shadow: 0 2px 0 0 #36382e;
+}
+
 .box {
   height: 75px;
   display: flex;
@@ -156,7 +161,6 @@ body {
 }
 
 .boxparent {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,12 +195,17 @@ body {
   display: flex;
 }
 
-#firstFrameimg {
-  height: 780px;
+#firstFrameImg {
+  width: 50%;
+  height: 100vh;
+  background-image: url(../images/doctors_with_patient.png);
+  background-position: center center;  /* Centers the background image */
+  background-repeat: no-repeat;        /* Prevents the background image from repeating */
+  background-size: cover;  
 }
 
 #motto {
-  font-size: 100px;
+  font-size: 80px;
   text-align: right;
   font-family: "Satoshi-Black", sans-serif;
   color: #385c6c;
@@ -204,13 +213,16 @@ body {
 }
 
 #sideTextcontainer {
-  
+  width: 45%;
   margin-left: 3%;
-  margin-top: 4%;
+  padding-bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #rooted {
-  font-size: 26px;
+  font-size: 24px;
   font-family: "Satoshi-Regular", sans-serif;
   text-align: right;
 }
@@ -220,12 +232,15 @@ body {
 }
 
 #firstFrameButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 7.5%;
 }
 
 #findADoctor {
   border: none;
-  width: 365px;
+  width: 40%;
   height: 60px;
   background: #d72020;
   border-radius: 12px;
@@ -237,7 +252,7 @@ body {
 #makeAnAppointment {
   margin-left: 10px;
   border: none;
-  width: 365px;
+  width: 50%;
   height: 60px;
   background: #385c6c;
   border-radius: 12px;
@@ -250,14 +265,15 @@ body {
 
 #secondFrame {
   display: flex;
-  margin-left: 11.5%;
+  align-items: center;
   margin-top: 7%;
   margin-bottom: 7%;
 }
 
 #secondFrameText {
-  width: 32%;
-  margin-top: 0.5%;
+  width: 40%;
+  padding-bottom: 5%;
+  padding-left: 5%;
 }
 
 #medicalServices {
@@ -281,7 +297,7 @@ body {
 
 .learnMore {
   height: 60px;
-  width: 542px;
+  width: 30%;
   position: absolute;
   background: #d72020;
   border-radius: 12px;
@@ -291,12 +307,13 @@ body {
   font-size: 20px;
   word-wrap: break-word;
   border: none;
+  margin-top: 1%;
 }
 
 .carousel {
   width: 50%;
   position: relative;
-  margin-left: 9%;
+  padding-left: 4%;
   aspect-ratio: 16/9;
   
 }
@@ -433,15 +450,18 @@ body {
   font-weight: 400;
 }
 
-#blue {
-  background: #385c6c;
-  margin-left: 8%;
-  margin-top: 4%;
+.centeredButton{
+  display:flex; 
+  align-items:center; 
+  justify-content: center; 
+  height: 10%; 
+  padding-top: 10%;
 }
 
-#centered{
-  margin-left: 42%;
+#blue {
+  background: #385c6c;
 }
+
 
 /********************************************************** Fifth Frame *****************************************************************************************************/
 
@@ -454,15 +474,23 @@ body {
   margin-bottom: 10%;
 }
 
+.redLineCentered{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .contact-title, .description {
   text-align: center;
 }
 
 
-.contact-info {
-  width: 302px;
-  margin-left: 20%;
-  margin-top: 2.5%;
+.header-text{
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .description {
@@ -483,9 +511,6 @@ body {
   margin-top: 7%;
 }
 
-.header-text{
-  margin-left: 20%;
-}
 
 .text-accent2 {
   color: #385C6C;
@@ -524,42 +549,30 @@ body {
   line-height: 69px;
 }
 
-#lastbutton{
-  margin-left: 8%;
-  margin-top: 3%;
-}
 
 
 /********************************************************** Footer *****************************************************************************************************/
 
-.footer {
-  width: 100%;
-  height: 282px;
-  position: relative;
-}
-
-.background-rectangle {
+.Footer {
   width: 100%;
   height: 243px;
-  position: absolute;
-  top: 0;
   background: #D1DDE3;
   border-radius: 12px;
+}
+
+.footer{
+  display: flex;
 }
 
 .bottom-strip {
   width: 100%;
   height: 39px;
-  position: absolute;
-  top: 243px;
   background: #36382E;
+  display: flex;
 }
 
 .copyright-text {
   width: 228px;
-  position: absolute;
-  left: 100px;
-  top: 253px;
   color: white;
   font-size: 14px;
   font-family: Satoshi;
@@ -571,9 +584,6 @@ body {
 .terms-privacy {
   width: 274px;
   height: 19px;
-  position: absolute;
-  left: 378px;
-  top: 253px;
   color: white;
   font-size: 14px;
   font-family: Satoshi;
@@ -585,40 +595,19 @@ body {
   width: 46px;
   height: 55px;
   position: absolute;
-  left: 100px;
-  top: 48px;
 }
 
-.section-information {
-  width: 158px;
-  position: absolute;
-  left: 1128px;
-  top: 49px;
+
+.footerLinks {
+  width: 10%;
   color: #36382E;
   font-size: 16px;
   font-family: Satoshi;
-  font-weight: 700;
-  line-height: 25.60px;
-}
-
-.contact-details {
-  width: 147px;
-  position: absolute;
-  left: 1328px;
-  top: 51px;
-  color: #36382E;
-  font-size: 16px;
-  font-family: Satoshi;
-  font-weight: 700;
-  line-height: 21.60px;
 }
 
 .follow-us {
   width: 300px;
   height: 67px;
-  position: absolute;
-  left: 1517px;
-  top: 51px;
   color: #36382E;
   font-size: 16px;
   font-family: Satoshi;
@@ -641,9 +630,6 @@ body {
 .address-contact {
   width: 453.93px;
   height: 44px;
-  position: absolute;
-  left: 100px;
-  top: 122px;
   color: #36382E;
   font-size: 16px;
   font-family: Satoshi;
@@ -664,9 +650,6 @@ body {
 .phone-number {
   width: 453.93px;
   height: 44px;
-  position: absolute;
-  left: 500px;
-  top: 122px;
   color: #36382E;
   font-size: 16px;
 }

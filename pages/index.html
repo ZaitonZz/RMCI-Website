@@ -33,20 +33,22 @@
         </div>
       </div>
       <div id="firstFrame">
-        <img id="firstFrameimg" src="../images/firstframe.png" />
+        <div id="firstFrameImg"></div>
         <div id="sideTextcontainer">
-          <h1 id="motto">Serving God.<br />Serving People.</h1>
-          <p id="rooted">
-            Rooted in Faith, Committed to Care:<br />Your
-            <span>trusted partner</span> for Medical Laboratory Testing.
-          </p>
-          <div id="firstFrameButtons">
-            <input type="button" id="findADoctor" value="FIND A DOCTOR" />
-            <input
-              type="button"
-              id="makeAnAppointment"
-              value="MAKE AN APPOINTMENT"
-            />
+          <div>
+            <h1 id="motto">Serving God.<br />Serving People.</h1>
+            <p id="rooted">
+              Rooted in Faith, Committed to Care:<br />Your
+              <span>trusted partner</span> for Medical Laboratory Testing.
+            </p>
+            <div id="firstFrameButtons">
+              <input type="button" id="findADoctor" value="FIND A DOCTOR" />
+              <input
+                type="button"
+                id="makeAnAppointment"
+                value="MAKE AN APPOINTMENT"
+              />
+            </div>  
           </div>
         </div>
       </div>
@@ -113,10 +115,14 @@
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum
           </div>
-          <input type="button" id="blue" class="learnMore" value="LEARN MORE" />
+          <div id="centeredButton">
+            <input type="button" id="blue" class="learnMore" value="LEARN MORE" />
+          </div>
         </div>
       </div>
-      <div id="centered" class="redLine"></div>
+      <div class="redLineCentered">
+        <div class="redLine"></div>
+      </div>
     </div>
     <div class="fifthFrame">
       <div id="fifthFrameContent">
@@ -134,32 +140,51 @@
           alt="Map Image"
         />
         <div class="header-text">
-          <span class="text-dark2">Address: </span>
-          <span class="text-light"
-            >Rivera Medical Center. Inc., Santo Tomas,
-            <div class="custom-br"></div> 
-            Davao del Norte</span
-          >
+          <div>
+            <span class="text-dark2">Address: </span>
+            <span class="text-light"
+              >Rivera Medical Center. Inc., Santo Tomas,
+              <div class="custom-br"></div> 
+              Davao del Norte<br /><br /></span
+            >
+            <span class="text-light">Telephone:<br /></span>
+            <span class="text-accent">(012) 345-6789<br /><br /></span>
+            <span class="text-light">Mobile:<br /></span>
+            <span class="text-accent">+63923456789</span>
+          </div>
+          
         </div>
-        <div class="contact-info">
-          <span class="text-light">Telephone:<br /></span>
-          <span class="text-accent">(012) 345-6789<br /></span>
-          <span class="text-light">Mobile:<br /></span>
-          <span class="text-accent">+63923456789</span>
+        <div class="centeredButton">
+          <input id="lastbutton" type="button" class="learnMore" value="SEND US A MESSAGE" />
         </div>
-        <input id="lastbutton" type="button" class="learnMore" value="SEND US A MESSAGE" />
       </div>
     </div>
     <div class="Footer">
       <div class="footer">
-        <div class="background-rectangle"></div>
-        <div class="bottom-strip"></div>
-        <div class="copyright-text">Copyright © 2024. All rights reserved.</div>
-        <div class="terms-privacy">
-          <div style="position: absolute; left: 136px;">Terms and Conditions</div>
-          <div style="position: absolute; left: 0;">Privacy Policy</div>
+        <div id="footerStart">
+          <img class="logo-image" src="https://via.placeholder.com/46x55" alt="Logo">
+          <div class="address-contact">
+            <img id="location" src="../images/location.png">
+            Rivera Medical Center, Inc., Panabo City,
+              <br>
+              <span class="location-info">
+              Davao del Norte, Philippines
+            </span> 
+          </div>
+          <div class="phone-number">
+            <img id="phone" src="../images/phone.png  ">
+            +639123456789
+          </div>   
         </div>
-        <img class="logo-image" src="https://via.placeholder.com/46x55" alt="Logo">
+        
+        <div class="section-information">
+          Patient Care
+          <br>
+          <br>
+          <a href="findDoctor.html">Find a Doctor</a>
+          <br>
+          <a href="services.html">Our Services</a>
+        </div>
         <div class="section-information">
           About Us
           <br>
@@ -172,34 +197,28 @@
           <br>
           <a href="">Core Purpose</a>
         </div>
-        <div class="contact-details">
-          Patient Care
+        <div class="section-information">
+          Visit Us
           <br>
           <br>
-          <a href="findDoctor.html">Find a Doctor</a>
+          <a href="findDoctor.html">Contact Us</a>
           <br>
-          <a href="services.html">Our Services</a>
+          <a href="services.html">Where we are</a>
         </div>
         <div class="follow-us">
           Follow Us
           <br>
           <br>
           <img id="facebook" src="../images/facebook.png">
-          <span id="rhm">Rivera Heart - Metabolism </span>
+        </div>     
         </div>
-        <div class="address-contact">
-          <img id="location" src="../images/location.png">
-          Rivera Medical Center, Inc., Panabo City,
-            <br>
-            <span class="location-info">
-            Davao del Norte, Philippines
-          </span> 
-        </div>
-        <div class="phone-number">
-          <img id="phone" src="../images/phone.png  ">
-          +639123456789
-        </div>        
-        </div>
+      </div>
+      <div class="bottom-strip">
+        <div class="copyright-text">Copyright © 2024. All rights reserved.</div>
+        
+          <div>Terms and Conditions</div>
+          <div>Privacy Policy</div>
+      
       </div>
 
     </div>
