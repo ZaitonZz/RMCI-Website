@@ -476,3 +476,8 @@ body {
   width: 15px;
   height: 15px;
 }
+
+.decoration-none{
+  text-decoration: none;
+  color: #36382E;
+}

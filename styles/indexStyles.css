@@ -237,6 +237,9 @@ body {
 }
 
 #findADoctor {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
   border: none;
   width: auto;
   padding-left: 10%;
@@ -247,9 +250,13 @@ body {
   font-family: "Satoshi-Medium", sans-serif;
   font-size: 18px;
   color: white;
+  text-decoration: none;
 }
 
 #makeAnAppointment {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
   margin-left: 2%;
   border: none;
   width: auto;
@@ -261,6 +268,7 @@ body {
   font-family: "Satoshi-Medium", sans-serif;
   font-size: 18px;
   color: white;
+  text-decoration: none;
 }
 
 /********************************************************** Second Frame *****************************************************************************************************/
@@ -298,6 +306,9 @@ body {
 }
 
 .learnMore {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
   height: 60px;
   width: auto;
   padding-left: 12%;
@@ -311,6 +322,7 @@ body {
   font-size: 20px;
   word-wrap: break-word;
   border: none;
+  text-decoration: none;
   margin-top: 1%;
 }
 
@@ -332,8 +344,8 @@ body {
 }
 
 .carousel__item img{
-  height: 476px;
-  width: auto;
+  height: auto;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -383,7 +395,7 @@ body {
 }
 
 #thirdFrameQuote{
-  font-size: 60px;
+  font-size: 48px;
   font-family: "Satoshi-Italic", sans-serif;
 }
 
@@ -398,8 +410,7 @@ body {
 }
 
 #thirdFrameQuoted {
-  font-size: 20px;
-  line-height: 25px; 
+  font-size: 16px;
   word-wrap: break-word;
   font-family: "Satoshi-Regular", sans-serif;
 }
@@ -655,6 +666,11 @@ body {
 #phone {
   width: 15px;
   height: 15px;
+}
+
+.decoration-none{
+  text-decoration: none;
+  color: #36382E;
 }
 
 @media  screen and (max-width: 600px) 
