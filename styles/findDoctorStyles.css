@@ -149,40 +149,6 @@ body {
   border-bottom: 2px solid #d72020;
 }
 
-.box {
-  height: auto;
-  display: flex;
-  cursor: pointer;
-  padding: 10px 20px;
-  align-items: center;
-  background: #d72020;
-}
-
-.boxparent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 10%;
-}
-
-.box:hover input {
-  width: 80%;
-}
-
-.box input {
-  width: 0;
-  outline: none;
-  border: none;
-  font-weight: 500;
-  transition: 0.5s;
-  background: transparent;
-  color: #faf9f6;
-}
-
-.box input::placeholder {
-  color: #faf9f6;
-}
-
 .box a .fas {
   color: #1daf;
   font-size: 18px;
