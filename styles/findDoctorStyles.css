@@ -212,6 +212,15 @@ body {
   border-radius: 12px
 }
 
+.portrait {
+  width: 100%;
+  height: auto;
+}
+
+.card-icon {
+  width: 20%;
+}
+
 .cardTextContent{
   width: 70%;
   margin-left: 5%;
