@@ -284,8 +284,8 @@ body {
 /********************************************************** Fifth Frame *****************************************************************************************************/
 
 #fifthFrame {
-  height: 100vh;
-  background: url(../images/doctor_close_up.png);
+  height: 80vh;
+  background: url(../images/doctor_close_up.png) no-repeat;
   display: flex;
   align-items: center;
   justify-content: start;

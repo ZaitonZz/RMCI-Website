@@ -184,6 +184,29 @@ body {
   text-align: center;
 }
 
+#secondFrameImages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.specialties-card{
+  width: 30%;
+  padding: 3%;
+}
+
+.text-specialties{
+  font-family: 'Satoshi-Medium', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.text-normal-width{
+  text-align: justify;
+  margin-top: 5%;
+}
+
 /********************************************************** Third Frame *****************************************************************************************************/
 
 #thirdFrame{
